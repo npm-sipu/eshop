@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Item } from './useTypes';
 
-let URL = "eshop-backend-three.vercel.app";
+let URL = "eshop-backend-three.vercel.app/";
 
 if (process.env.NODE_ENV !== "production") {
   URL = "http://localhost:5000/";
