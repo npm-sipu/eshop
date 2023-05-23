@@ -73,8 +73,10 @@ const Header: React.FC = () => {
 
   return (
     <div className='w-full h-30 bg-gray-900 flex justify-between items-center'>
-      <div className='mx-2 my-2 py-2 px-4 text-white flex'>
-        <NavLink to='/'>Bhatta Mart</NavLink>
+      <div className='mx-2 my-2 py-2 px-4 text-white font-bold flex'>
+        <NavLink to='/'>
+          <h1>eShop</h1>
+        </NavLink>
       </div>
       <div className='flex justify-center items-center'>
         <div className='relative'>

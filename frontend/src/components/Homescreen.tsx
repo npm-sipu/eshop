@@ -23,7 +23,9 @@ const Homescreen: React.FC = () => {
 
   return (
     <>
-      <h1 className='text-2xl'>Latest Products</h1>
+      <div className='grid place-content-center my-1 font-semibold'>
+        <h2 className='text-2xl'>Latest Products</h2>
+      </div>
       <div className='flex flex-wrap my-2 mx-8'>
         {products?.map((product) => (
           <Product key={product._id} product={product} />

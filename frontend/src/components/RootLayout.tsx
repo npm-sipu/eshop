@@ -6,11 +6,7 @@ const RootLayout: React.FC = () => {
     <div>
       <Header />
 
-      <main
-        className={`
-           h-screen box-border
-        `}
-      >
+      <main className='h-screen box-border mx-4'>
         <Outlet />
       </main>
     </div>
