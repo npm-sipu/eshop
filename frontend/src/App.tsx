@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 //layouts
+import Shipping from "./components/Shipping";
 import About from "./components/About";
 import Homescreen from "./components/Homescreen";
 import RootLayout from "./components/RootLayout";
@@ -25,6 +26,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='auth' element={<LoginScreen />} />
         <Route path='profile' element={<Profile />} />
+        <Route path='shipping' element={<Shipping />} />
       </Route>
     )
   );

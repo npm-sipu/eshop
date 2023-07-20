@@ -11,6 +11,15 @@ export interface Item {
     numReviews: number;
   }
 
+export interface Address {
+  name : string;
+  street : string;
+  city : string;
+  state : string;
+  country : string;
+  pincode : string;
+  mobile : string;
+}
 
 export interface CartItem {
     id: string;

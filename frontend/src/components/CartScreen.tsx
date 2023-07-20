@@ -11,7 +11,7 @@ import { RootState } from "../store/store";
 import { AppDispatch } from "../store/store";
 
 const CartScreen: React.FC = () => {
-  const cartItems = useSelector((state: RootState) => state.cart);
+  const cartItems = useSelector((state: RootState) => state.cart.cartItems);
   const dispatch: AppDispatch = useDispatch();
 
   useEffect(() => {
