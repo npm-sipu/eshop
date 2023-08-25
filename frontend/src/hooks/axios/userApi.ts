@@ -14,16 +14,5 @@ const instance: AxiosInstance = axios.create({
           },
 });
 
-// instance.interceptors.response.use(
-//   (response) => response,
-//   (error: AxiosError) => {
-//     if (error.response?.status === 401) {
-//       // Handle token expiration or unauthorized access here
-//       // For example, you can dispatch a logout action
-//       dispatch(logout());
-//     }
-//     return Promise.reject(error);
-//   }
-// );
 
 export default instance;

@@ -9,7 +9,6 @@ export type AppThunk<ReturnType = void> = ThunkAction<
   AnyAction
 >;
 
-// const dispatch = useAppDispatch()
 
 interface AuthState {
   token: string | null;
